@@ -125,20 +125,18 @@ nav > a {
     margin-left: 48px;
 }
 /* Герой */
-.baner {
-    background-color: var(--color-hero);
-    color: var(--color-hero-name);
-    height: 600px;
-    text-align: center;
-}
 .baner.section {
+    background-color: var(--color-hero);
+    text-align: center;
     padding-left: 0;
     padding-top: 200px;
+    padding-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
 }
 .hero {
     font-family: var(--font-family-primary);
+    color: var(--color-hero-name);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -161,7 +159,6 @@ nav > a {
     letter-spacing: 0.06em;
     display: inline-block;
     padding: 10px 32px;
-    margin-bottom: 200px;
 }
 .button:hover,
 .button:focus {
