@@ -228,7 +228,6 @@ nav > a {
     text-align: center;
 }
 .teammates-list {
-    padding-bottom: 86px;
     display: flex;
 }
 .teammates {
@@ -260,6 +259,7 @@ nav > a {
     color: var(--color-contacts);
     font-weight: 400;
     line-height: 1.7;
+    margin-bottom: 0;
 }
 /* Подвал */
 .footer {
